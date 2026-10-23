@@ -1,0 +1,10 @@
+{
+  "recordedAt": "2026-10-23T15:26:01.004Z",
+  "network": "hardhat",
+  "chainId": "31337",
+  "contractAddress": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+  "owner": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+  "transactionHash": "0xbc8fbea9d6edd5199145ab392adc9bbd4cf405e191d91575e208dcf295e33784",
+  "blockNumber": 2,
+  "status": 1
+}

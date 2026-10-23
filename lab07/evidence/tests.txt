@@ -1,0 +1,40 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+Compiled 29 Solidity files successfully (evm target: paris).
+
+
+  ClassBadge / ERC-721
+    ✔ has correct collection metadata and owner (590ms)
+    ✔ owner mints id 0, returns the id and emits Transfer
+    ✔ rejects mint by non-owner
+    ✔ rejects an empty name
+    ✔ rejects tokenURI for an unminted ID
+    ✔ decodes JSON, Student trait and nested base64 SVG
+    ✔ preserves Unicode, quotes, backslashes and control characters in JSON
+    ✔ increments IDs and keeps independent student names (38ms)
+    ✔ safeMint accepts a receiver implementing the required selector
+    ✔ safeMint rejects a non-receiver and rolls back the token counter
+    ✔ safeMint rejects a receiver returning the wrong selector
+    ✔ safeTransferFrom rejects non-receivers and preserves ownership
+    ✔ owner may transfer a badge to an EOA without changing its metadata
+
+  ClassToken / ERC-20
+    ✔ has correct metadata, cap, total supply and initial holder balance
+    ✔ mints to initialHolder even when that address is not the deployer
+    ✔ rejects a zero initial holder
+    ✔ transfers 100 CTK, moves both balances and emits Transfer
+    ✔ reverts insufficient balance with exact custom error arguments
+    ✔ approve -> transferFrom spends allowance and updates balances
+    ✔ reverts when spender exceeds allowance
+    ✔ preserves total supply and recipient running sum over multiple amounts
+    ✔ enforces ERC20Capped via the _update override
+
+  ClassToken / EIP-2612 permit (bonus)
+    ✔ a second account submits permit; allowance is set and nonce increments
+    ✔ rejects an expired deadline with ERC2612ExpiredSignature
+    ✔ rejects replay of an already-used signature
+    ✔ rejects a signature bound to another chainId
+    ✔ rejects a signature bound to another contract
+
+
+  27 passing (1s)
+

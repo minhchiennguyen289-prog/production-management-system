@@ -1,0 +1,19 @@
+{
+  "recordedAt": "2026-10-23T15:26:01.071Z",
+  "network": "hardhat",
+  "chainId": "31337",
+  "registry": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+  "tokenId": "0",
+  "meta": {
+    "name": "ClassBadge #0",
+    "description": "Blockchain Lab 07 student badge with on-chain metadata.",
+    "attributes": [
+      {
+        "trait_type": "Student",
+        "value": "Sinh viên minh họa"
+      }
+    ],
+    "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNjQwIDQwMCI+PHJlY3Qgd2lkdGg9IjY0MCIgaGVpZ2h0PSI0MDAiIHJ4PSIyNCIgZmlsbD0iIzEwMWMzNSIvPjxyZWN0IHg9IjI4IiB5PSIyOCIgd2lkdGg9IjU4NCIgaGVpZ2h0PSIzNDQiIHJ4PSIxNiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNTVkOWJkIiBzdHJva2Utd2lkdGg9IjIiLz48dGV4dCB4PSI1NiIgeT0iMTAwIiBmaWxsPSIjNTVkOWJkIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMCI+QkxPQ0tDSEFJTiAvIExBQiAwNzwvdGV4dD48dGV4dCB4PSI1NiIgeT0iMTk1IiBmaWxsPSJ3aGl0ZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiPkNsYXNzQmFkZ2UgIzA8L3RleHQ+PHRleHQgeD0iNTYiIHk9IjI1NSIgZmlsbD0iI2M2ZDNlOSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMjAiPkVSQy03MjEgLyBPbi1jaGFpbiBtZXRhZGF0YTwvdGV4dD48L3N2Zz4="
+  },
+  "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"640\" height=\"400\" viewBox=\"0 0 640 400\"><rect width=\"640\" height=\"400\" rx=\"24\" fill=\"#101c35\"/><rect x=\"28\" y=\"28\" width=\"584\" height=\"344\" rx=\"16\" fill=\"none\" stroke=\"#55d9bd\" stroke-width=\"2\"/><text x=\"56\" y=\"100\" fill=\"#55d9bd\" font-family=\"sans-serif\" font-size=\"20\">BLOCKCHAIN / LAB 07</text><text x=\"56\" y=\"195\" fill=\"white\" font-family=\"sans-serif\" font-size=\"44\">ClassBadge #0</text><text x=\"56\" y=\"255\" fill=\"#c6d3e9\" font-family=\"sans-serif\" font-size=\"20\">ERC-721 / On-chain metadata</text></svg>"
+}

@@ -1,0 +1,35 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+LOCAL DEMO ONLY — these addresses are not TrustKeys deployments.
+Transaction hash: 0x2d73ff775e668bf04762339293950854b96e7a08c814b5468d0ee98085c1b350
+ClassToken: 0x5FbDB2315678afecb367f032d93F642f64180aa3
+Initial holder: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+Total supply: 1000000.0 CTK
+Evidence saved: evidence/hardhat-token-deployment.json
+Transaction hash: 0xbc8fbea9d6edd5199145ab392adc9bbd4cf405e191d91575e208dcf295e33784
+ClassBadge: 0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512
+Evidence saved: evidence/hardhat-badge-deployment.json
+Transaction hash: 0x01d35a74ee6fa954aba851b15ed1f11560a6849dd2e8a81c17a6c2070a6422bb
+Minted badge tokenId: 0
+Evidence saved: evidence/hardhat-badge-mint-0.json
+Sending exactly 100 CTK from 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266 to 0x70997970C51812dc3A010C7d01b50e0d17dc79C8
+Transaction hash: 0xc9a32121fbc67706800ddbc8cd788415212703db3dadf4dcbb0d093d7b5e82cc
+CHECK receipt status == 1 OK
+CHECK matching 100 CTK Transfer log OK
+Balances at mined block: 999900.0 / 100.0 CTK (sender / recipient)
+Evidence saved: evidence/hardhat-transfer-0xc9a32121fbc67706800ddbc8cd788415212703db3dadf4dcbb0d093d7b5e82cc.json
+Decoded JSON:
+{
+  "name": "ClassBadge #0",
+  "description": "Blockchain Lab 07 student badge with on-chain metadata.",
+  "attributes": [
+    {
+      "trait_type": "Student",
+      "value": "Sinh viên minh họa"
+    }
+  ],
+  "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNjQwIDQwMCI+PHJlY3Qgd2lkdGg9IjY0MCIgaGVpZ2h0PSI0MDAiIHJ4PSIyNCIgZmlsbD0iIzEwMWMzNSIvPjxyZWN0IHg9IjI4IiB5PSIyOCIgd2lkdGg9IjU4NCIgaGVpZ2h0PSIzNDQiIHJ4PSIxNiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNTVkOWJkIiBzdHJva2Utd2lkdGg9IjIiLz48dGV4dCB4PSI1NiIgeT0iMTAwIiBmaWxsPSIjNTVkOWJkIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMCI+QkxPQ0tDSEFJTiAvIExBQiAwNzwvdGV4dD48dGV4dCB4PSI1NiIgeT0iMTk1IiBmaWxsPSJ3aGl0ZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiPkNsYXNzQmFkZ2UgIzA8L3RleHQ+PHRleHQgeD0iNTYiIHk9IjI1NSIgZmlsbD0iI2M2ZDNlOSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMjAiPkVSQy03MjEgLyBPbi1jaGFpbiBtZXRhZGF0YTwvdGV4dD48L3N2Zz4="
+}
+Decoded SVG:
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400"><rect width="640" height="400" rx="24" fill="#101c35"/><rect x="28" y="28" width="584" height="344" rx="16" fill="none" stroke="#55d9bd" stroke-width="2"/><text x="56" y="100" fill="#55d9bd" font-family="sans-serif" font-size="20">BLOCKCHAIN / LAB 07</text><text x="56" y="195" fill="white" font-family="sans-serif" font-size="44">ClassBadge #0</text><text x="56" y="255" fill="#c6d3e9" font-family="sans-serif" font-size="20">ERC-721 / On-chain metadata</text></svg>
+Evidence saved: evidence/hardhat-badge-0-decoded.json
+LOCAL END-TO-END DEMO OK

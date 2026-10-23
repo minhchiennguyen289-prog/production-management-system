@@ -1,0 +1,15 @@
+{
+  "recordedAt": "2026-10-23T15:26:01.044Z",
+  "network": "hardhat",
+  "chainId": "31337",
+  "contractAddress": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+  "transactionHash": "0xc9a32121fbc67706800ddbc8cd788415212703db3dadf4dcbb0d093d7b5e82cc",
+  "status": 1,
+  "blockNumber": 4,
+  "from": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+  "to": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+  "amount": "100000000000000000000",
+  "amountCTK": "100",
+  "senderBalance": "999900000000000000000000",
+  "recipientBalance": "100000000000000000000"
+}
