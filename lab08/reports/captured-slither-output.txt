@@ -1,0 +1,27 @@
+
+Detector: reentrancy-eth
+Reentrancy in EtherBankVulnerable.withdraw() (contracts/EtherBankVulnerable.sol#10-16):
+	External calls:
+	- (ok,None) = msg.sender.call{value: bal}() (contracts/EtherBankVulnerable.sol#13)
+	State variables written after the call(s):
+	- balances[msg.sender] = 0 (contracts/EtherBankVulnerable.sol#15)
+	EtherBankVulnerable.balances (contracts/EtherBankVulnerable.sol#6) can be used in cross function reentrancies:
+	- EtherBankVulnerable.balances (contracts/EtherBankVulnerable.sol#6)
+	- EtherBankVulnerable.deposit() (contracts/EtherBankVulnerable.sol#9)
+	- EtherBankVulnerable.withdraw() (contracts/EtherBankVulnerable.sol#10-16)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#reentrancy-vulnerabilities-1
+
+Detector: low-level-calls
+Low level call in Attacker.collect() (contracts/Attacker.sol#30-33):
+	- (ok,None) = owner.call{value: address(this).balance}() (contracts/Attacker.sol#31)
+Low level call in EtherBankSecure.withdraw() (contracts/EtherBank.sol#21-27):
+	- (ok,None) = msg.sender.call{value: bal}() (contracts/EtherBank.sol#25)
+Low level call in EtherBankVulnerable.withdraw() (contracts/EtherBankVulnerable.sol#10-16):
+	- (ok,None) = msg.sender.call{value: bal}() (contracts/EtherBankVulnerable.sol#13)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#low-level-calls
+. analyzed (5 contracts with 2 detectors), 4 result(s) found
+'npx hardhat clean' running (wd: /workspace/scratch/5c6479960ded/lab08)
+'npx hardhat clean --global' running (wd: /workspace/scratch/5c6479960ded/lab08)
+Problem executing hardhat: npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+'npx hardhat compile --force' running (wd: /workspace/scratch/5c6479960ded/lab08)
