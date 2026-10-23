@@ -1,0 +1,5 @@
+{
+  "url": "https://mempool.space/api/v1/fees/recommended",
+  "retrieved_at_utc": "2026-10-23T15:10:32.464541+00:00",
+  "body": "{\"fastestFee\":3,\"halfHourFee\":3,\"hourFee\":1,\"economyFee\":1,\"minimumFee\":1}"
+}
